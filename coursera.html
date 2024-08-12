@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- HTML document is the DOCTYPE declaration which notifies the web browser that it is an HTML document.  -->
+<html> 
+    <!-- root element of the document  -->
+<head><title>coursera front-end html</title>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+<center>
+
+    <img src="logo.png">
+    <marquee><h1><em>welcome! :)</em></h></marquee>
+        <!-- Emphasis tags can be used to add emphasis to text. -->
+    <h2>Our Menu</h2>
+    <!-- <img scr="Pav-Bhaji.jpg" width="240" height="235"> -->
+    <img src="Pav-Bhaji.jpg"  width="245" height="300">
+    <h3>vada pav</h3>
+    <p>Patato stuffing dipped in besan and pav.</p>
+    <h3>Pav Bhaji</h3>
+    <p>2 pavs, bhaji, lemon and butter. </p>
+    <h3>Missal Pav</h3>
+    <p>sprout missal with pav </p>
+<!-- ul stands for unorderd list
+     and ol stands for orderd list -->
+    <ul>
+        <h2>Bevarages</h2>
+        <li>tea</li>
+        <li>cofee</li>
+        <li>lassi</li>
+    </ul>
+    <ol>
+        <h2>Nonveg</h2>
+        <li>chicken biryani</li>
+        <li>chiken tikka</li>
+        <li>butter chicken <span>new</span>
+
+        </li>
+    </ol>
+
+    <!--  creating a box for table  -->
+    <style> 
+        table, th, td{
+            border: 1px solid black;
+            border-collapse:separate ;
+        }
+   
+    </style>
+    <div class="container" class="col">
+        <div class="row" class="col-lg-6">
+
+
+      
+            <table>
+        <th>Dish</th>          <!--th=table header-->
+        <th>Price</th>
+        <tr>                   <!--table row-->
+            <td>vada pav</td>  <!--table data-->
+            <td>Rs 50.00</td>
+        </tr>
+        <tr>
+            <td>Pav Bhaji</td>
+            <td>Rs 200</td>
+        </tr>
+        <tr>
+            <td>Missal pav</td>
+            <td>Rs 250</td>
+        </tr>
+    
+        </table>
+    </div>
+    </div>
+
+    <!-- <p>this is a line break <br> tag </p> -->
+ <!-- output = this is s line break
+              tag. This tag does not need a closing tag. -->
+
+    <p><strong>liquor is strictly Prohibited </strong><br>and outside food<br>
+    we are not responsible for your valuables like <b>phone</b>,<b>wallet</b>,<b>purse.</b></p>
+     
+    <P><i>thanks for visiting,</i> see u again :)</P>
+    <!-- Italics tags can be used to offset a range of text. -->
+    
+</center>
+</body>
+<style>
+    div {
+        border: 1px solid black;
+        padding: 5px;        
+        /* padding defines the distance b/w d 2 containers(div) */
+
+    }
+    /* jain hind changes its clr to orange while hoovering */
+   .india:hover{
+        color: orange;  
+    }
+    p{
+        text-align : center;
+    }
+</style>
+<div>
+    <div>
+        <p class="india">Jai Hind !</p>
+    </div>
+</div>
+<!-- this is a para inside a div witch is inside another which creates a container inside a cintainer -->
+<a href="location.html">>Our Location</a>
+<!-- href = hyperlink refrence -->
+</html>
